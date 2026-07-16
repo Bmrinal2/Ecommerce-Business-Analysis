@@ -91,7 +91,3 @@ Table referenced in all queries below: `sales`
 2. Aside from Tables, every sub-category exceeds Furniture's internal 7% benchmark — **Paper** and **Labels** are the strongest.
 3. Shipping cost as a % of sales varies widely by mode (8.16%–17.41%) but shows **no strong negative correlation** with profit margin — Standard Class is both cheapest to ship and most profitable.
 4. **Critical**-priority orders are shipped fastest and are the most profitable; **Low**-priority orders are shipped slowest and are the least profitable — suggesting delivery speed (or the priority tier driving it) is associated with margin outcomes.
-
----
-
-*Queries executed against `sales_data.xlsx` (Orders sheet) via SQLite, using the exact SQL logic provided in the accompanying `.sql` files, with no modifications to query logic.*
